@@ -1,0 +1,33 @@
+.menu-config{
+    justify-content: space-between;
+    padding: 27px 0 20px 0;
+}
+#navbarSupportedContent{
+    flex-grow: 0;
+    .mr-auto{
+        // text-align: center;
+        .nav-link{
+            font-family: montserrat-regular;
+            font-weight: bold;
+            color: $black;
+            font-size: $fz1;
+            padding: 10px 20px;
+        }
+        .login-a{
+            padding: 10px 0 10px 30px;
+            position: relative;
+            &:before{
+                content: 'l';
+                position: absolute;
+                left: 0;
+            }
+            @media screen and (max-width: 992px) {
+                &:before{
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                }
+            }
+        }
+    }
+}

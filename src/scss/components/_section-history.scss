@@ -1,0 +1,19 @@
+.text-history{
+    padding: 10% 0 10% 0;
+    p{
+        font-family: $MYR;
+        display: block;
+        max-width: 990px;
+        margin: auto;
+        font-size: $fz-p2;
+        line-height: 36px;
+        text-align: center;
+    }
+    @media screen and(max-width: 400px) {
+        padding: 10% 2% 10% 2%;
+        p{
+            font-size: 4.7vmin;
+            line-height: 6.7vmin;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.banner-house{
+    background: url(../../image/house-banner.png);
+    background-size: cover;
+    background-position: center;
+    h3{
+        font-family: $MYR;
+        font-size: $fz-3h;
+        color: $white;
+        text-align: center;
+        margin: auto;
+        padding: 10% 0;
+    }
+}
