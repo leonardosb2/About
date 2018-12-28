@@ -1,9 +1,12 @@
 @import 'components/variables';
+@import 'components/mixins';
 @import 'components/reset-geneal';
 @import 'components/header';
 @import 'components/section-about';
 @import 'components/section-history';
 @import 'components/section-learn';
+@import 'components/section-slider';
+@import 'components/section-house';
 
 $string:'mi nombre es LEO';
 body {

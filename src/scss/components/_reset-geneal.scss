@@ -142,6 +142,10 @@ table {
     font-family: MyriadPro-Light;
     src: url(../../fonts/myriad/MyriadPro-Light.woff);
 }
+@font-face{
+    font-family: awesome;
+    src: url(../../fontawesome-free-5.6.3-web/css/all.css);
+}
 //FONT-FAMILY
 $ML: Montserrat-Light;
 $MR: montserrat-regular;
@@ -149,7 +153,7 @@ $MYR: MyriadProRegular;
 $MYL: MyriadPro-Light;
 /*--------------------------------structur--------------------------------------------*/
 .container{
-    max-width: 1440px;
+    max-width: 1161px;
     padding: 0;
     @media screen and (max-width: $break-laptop) {
         padding: 0 10px 0 10px;

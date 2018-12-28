@@ -1,0 +1,52 @@
+#section-house{
+    .row{
+        padding: 10% 0 10% 9%;
+        align-items: center;
+        .house-info{
+            max-width: 50%;
+            h4{
+                font-size: 48.54px;
+                font-family: $MYR;
+            }
+            p{
+                font-size: 21px;
+                font-family: $ML;
+                line-height: 36px;
+                max-width: 553px;
+                padding: 20px 0 46px 0;
+            }
+        }
+    }
+    .column-2{
+        max-width: 40%;
+        img{
+            width: 100%;
+        }
+    }
+    @media screen and (max-width:900px){
+        .row{
+            flex-direction: column;
+            .house-info{
+                max-width: 100%;
+                text-align: center;
+                h4{
+                    font-size: $fz-3h;
+                    font-family: $MYR;
+                }
+                p{
+                    font-size: 21px;
+                    font-family: $ML;
+                    line-height: 36px;
+                    max-width: 553px;
+                    padding: 20px 0 46px 0;
+                }
+                a{
+                    margin: auto;
+                }
+            }
+            .column-2{
+                width: 100%
+            }
+        }
+    }
+}
