@@ -1,0 +1,13 @@
+#main-footer{
+    background: #223563;
+    .footer-copyright{
+        font-family: $MYL;
+        font-size: 15px;
+        .cr1{
+            max-width: 320px;
+        }
+        .cr2{
+            max-width: 680px;
+        }
+    }
+}

@@ -5,7 +5,7 @@
         .house-info{
             max-width: 50%;
             h4{
-                font-size: 48.54px;
+                font-size: $fz-3h;
                 font-family: $MYR;
             }
             p{
@@ -30,13 +30,11 @@
                 max-width: 100%;
                 text-align: center;
                 h4{
-                    font-size: $fz-3h;
-                    font-family: $MYR;
+                    font-size: 5.5vmin;
                 }
                 p{
-                    font-size: 21px;
-                    font-family: $ML;
-                    line-height: 36px;
+                    font-size: 4vmin;
+                    line-height: 5.5vmin;
                     max-width: 553px;
                     padding: 20px 0 46px 0;
                 }
@@ -45,7 +43,8 @@
                 }
             }
             .column-2{
-                width: 100%
+                width: 100%;
+                padding-top: 20px;
             }
         }
     }
