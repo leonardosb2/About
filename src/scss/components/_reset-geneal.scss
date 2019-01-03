@@ -159,6 +159,17 @@ $MYL: MyriadPro-Light;
         padding: 0 10px 0 10px;
     }
 }
+
 a:hover{
-    opacity: .25;
+    opacity: .55;
+}
+.btn-red{
+    background: #ef4136;
+    color: $white;
+    font-family:$MYR;
+    font-size: $fz-btn;
+    display: block;
+    max-width: 240px;
+    text-align: center;
+    padding: 17px 0 23px 0;
 }

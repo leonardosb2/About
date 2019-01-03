@@ -7,7 +7,7 @@
     .mr-auto{
         // text-align: center;
         .nav-link{
-            font-family: montserrat-regular;
+            font-family: $MR;
             font-weight: bold;
             color: $black;
             font-size: $fz1;
@@ -20,6 +20,8 @@
                 content: 'l';
                 position: absolute;
                 left: 0;
+                top: 14px;
+                font-size: 10px
             }
             @media screen and (max-width: 992px) {
                 &:before{

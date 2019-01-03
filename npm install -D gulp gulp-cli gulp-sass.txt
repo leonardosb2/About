@@ -1,1 +1,2 @@
 npm install bootstrap font-awesome jquery popper.sj
+npm install -D gulp gulp-cli gulp-sass
