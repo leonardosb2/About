@@ -19,3 +19,28 @@ $fz-2main:33.69px;
 $break-small: 320px;
 $break-large: 1200px;
 $break-laptop: 1200px;
+//Extend
+%images {
+    width: 100%;
+    height: auto;
+}
+%font-responsive{
+    @media screen and (max-width: 1120px){           
+            font-size: 3vmin;
+            line-height: 4.5vmin;
+            @media screen and (max-width: 360px){           
+             
+                    font-size: 4.5vmin;
+                    line-height: 6vmin;
+               
+            }
+    }
+}
+//Mixis
+@mixin radius ($property){
+    border-radius: $property;
+    -webkit-border-radius: $property;
+    -moz-border-radius: $property;
+    -ms-border-radius: $property;
+    -o-border-radius: $property;
+}

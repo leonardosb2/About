@@ -55,14 +55,9 @@
                 width: 205px;
                 height: 205px;
                 overflow: hidden;
-                border-radius: 50%             ;
-                -webkit-border-radius: 50%             ;
-                -moz-border-radius: 50%             ;
-                -ms-border-radius: 50%             ;
-                -o-border-radius: 50%             ;
+                @include radius(50%);
                 img{
-                    width: 100%;
-                    height: auto;
+                    @extend %images;
                 }
             }
             .description-woman{
